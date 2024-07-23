@@ -1,0 +1,172 @@
+/* ------------------------Desktop */
+
+@media screen and (max-width: 1300px) {
+    body{
+
+        background-color: #ee8328;    
+    }
+
+    .img{
+        border: solid red;
+        /* height: 300px; */
+        display: flex;
+        justify-content: start;
+    }
+
+    .charmander{
+        height: 30%;
+        display: none;
+    }
+
+    .charmeleon{
+        height: 33%;
+        display: none;
+    }
+
+    .charizard{
+        height: 300px;
+        display: block;
+    }
+    .mobileName{
+        height: 250px;
+        display: none;
+        
+    }
+    .medName{
+        height: 250px;
+        display: none;
+        
+    }
+    .DestName{
+        height: 250px;
+        display: block;
+    }
+    .cool{
+        border: solid purple;
+        /* height: 100px; */
+        display: flex;
+        justify-content: left;
+    }
+  }
+/* -------------Desktop --------------*/
+
+
+/* ------------------------- Media----- */
+@media screen and (max-width: 1000px) {
+    body{
+
+        background-color: #fe4100;
+    }
+
+    .img{
+        border: solid black;
+        /* height: 300px; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .charmander{
+        height: 33%;
+        display: none;
+    }
+
+    .charmeleon{
+        height: 300px;
+        display: block;
+    }
+
+    .charizard{
+        height: 33%;
+        display: none;
+    }
+    .mobileName{
+        height: 250px;
+        display: none;
+        
+    }
+    .medName{
+        height: 250px;
+        display: block;
+        
+    }
+    .DestName{
+        height: 250px;
+        display: none;
+        
+    }
+    .cool{
+        border: solid purple;
+        /* height: 100px; */
+        display: flex;
+        justify-content: center;
+    }
+  }
+/* -------Media------------ */
+
+/* ----------------------Mobile---------------- */
+@media screen and (max-width: 700px) {
+    body{
+
+        background-color: #EA8B24;
+
+    }
+
+    .img{
+        border: solid blue;
+        /* height: 300px; */
+        display: flex;
+        justify-content: end;
+    }
+
+    .charmander{
+        height: 250px;
+        display: block;
+    }
+
+    .charmeleon{
+        height: 30%;
+        display: none;
+    }
+
+    .charizard{
+        height: 30%;
+        display: none;
+    }
+    .mobileName{
+        height: 250px;
+        display: block;
+    }
+    .medName{
+        height: 250px;
+        display: none;
+        
+    }
+    .DestName{
+        height: 250px;
+        display: none;
+             
+    }
+
+    .cool{
+        border: solid purple;
+        /* height: 100px; */
+        display: flex;
+        justify-content: right;
+    }
+  
+}
+
+  /* -------------------General CSS---------------------- */
+
+.Title{
+    border: solid red;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+}
+.pokemon{
+    height: 200px;
+    margin: -25px;
+}
+
+
